@@ -15,7 +15,7 @@ const Home = () => {
     { name: "Angular", icon: "🅰️" },
     { name: "Node.js", icon: "⬢" },
     { name: "Express.js", icon: "🚀" },
-    { name: "Prisma ORM", icon: "🔷" },
+    { name: "Prisma ORM", icon: "🛆" },
     { name: "MySQL", icon: "🐬" },
     { name: "MongoDB", icon: "🌿" },
     { name: "Socket.IO", icon: "📡" },
@@ -78,13 +78,12 @@ const Home = () => {
             developed real-time applications, e-commerce platforms, and RESTful
             APIs.
           </p>
-          <a
-            href="/Ajay-Resume.pdf"
-            download
+          <Link
+            to={"/about"}
             className="mt-6 inline-block bg-blue-500 px-6 py-3 rounded-lg text-white font-semibold"
           >
-            Download Resume
-          </a>
+            View More
+          </Link>
         </div>
       </div>
 
@@ -101,7 +100,13 @@ const Home = () => {
               className="border border-gray-600  p-5 rounded-xl flex flex-col items-center shadow-lg hover:shadow-blue-500/50 transition-all cursor-pointer hover:scale-105"
               title={`${name}`}
             >
-              <span className="text-3xl text-green-600">{icon}</span>
+              <span
+                className={`text-3xl ${
+                  name === "Node.js" ? "text-green-500" : "text-blue-500"
+                }`}
+              >
+                {icon}
+              </span>
               <span className="mt-3 text-lg font-semibold">{name}</span>
             </div>
           ))}
