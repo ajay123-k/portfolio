@@ -33,7 +33,7 @@ const journey = [
     title: "Started Working Professionally",
     icon: "💼",
     description:
-      "Joined the industry as a MEAN Stack Developer, focusing on Node.js for backend development. Refactored a Java-based backend to Node.js using Prisma ORM, improving database efficiency. Additionally, integrated payment gateways like Stripe, PayPal, and Instamojo for seamless transactions.",
+      "Joined the industry as a MERN Stack Developer, focusing on Node.js for backend development. Refactored a Java-based backend to Node.js using Prisma ORM, improving database efficiency. Additionally, integrated payment gateways like Stripe, PayPal, and Instamojo for seamless transactions.",
   },
   {
     title: " Full Stack Projects",

@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="bg-gray-900 dark:bg-gray-800 px-6 py-4 text-white">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-2xl font-bold">
-          <span className="text-yellow-500">Ajay</span>Ak
+          <span className="text-yellow-500">Ajay</span>
         </div>
 
         <ul className="hidden md:flex space-x-6 font-semibold">
